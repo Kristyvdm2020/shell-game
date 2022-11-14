@@ -1,0 +1,22 @@
+body {
+    font-family: verdana;
+}
+
+#board {
+    display: flex;
+    justify-content: space-around;
+}
+
+#board > div {
+    border: solid 1px grey;
+    height: 40px;
+    width: 40px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
